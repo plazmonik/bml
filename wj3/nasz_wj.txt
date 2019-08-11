@@ -1,0 +1,257 @@
+#+TITLE: WJ do gry!
+
+#+AUTHOR: Adam & Team
+
+#+DESCRIPTION: WJ do gry
+
+* WJ 3.0
+
+   1C Trefl trójznaczny:
+   12-14PC, układ zrównoważony
+   16+PC, 5+ trefli
+   18+PC, dowolny
+        1D Karo trójznaczne:
+        0-6PC
+        7-11PC bez starszej 4. na treflach i lub karach
+        13+PC bez starszej 4. i młodszej 5.
+            1H Słaby trefl, kiery nie gorsze od pików.
+                2C Wariant 2. 1!d - trefle lepsze od kar
+                2D Wariant 2. 1!d - kara nie gorsze od trefli
+                2N Wariant 3. 1!d
+            1S Słaby trefl, piki lepsze od kierów
+                2C Wariant 2. 1!d - trefle lepsze od kar
+                2D Wariant 2. 1!d - kara nie gorsze od trefli
+                2N Wariant 3. 1!d
+            1N 18-20pkt zrównoważony
+            2C 16+pkt 5+ trefli
+            2D FG dowolna karta(Acol)
+            2H 5+ kierów silny trefl
+            2S 5+ pików silny trefl
+            2N 21-24pkt zrównoważony
+            3C silny trefl, 6+ trefli
+            2D silny trefl, 6+ kar
+        1H 7+PC 4 kiery; kiery nie krótsze niż piki. Przy 4-4 na starych zaczynamy od kierów; przy 5-5: od pików
+            1S 4+ pik, F1, ciągle dopuszczamy silnego trefla
+                1N do gry
+                2C 10+PC, 5+kierów (Magister) - pytanie o siłe i skład
+                    2D słaby (12-13PC) bez 3 kierów
+                    2H słaby (12-13PC) z 3 kierami
+                    2S silny (13-14PC) z 3 kierami
+                    2N silny (13-14PC) bez 3 kierów
+                2H 7-9PC, 5+kierów (do gry)
+                2S 7-9PC do gry
+                2N 12+PC
+            1N brak 4 kierów i 4 pików, słaby trefl
+                2C 10+PC, 5+kierów (Magister) - pytanie o siłe i skład
+                    2D słaby (12-13PC) bez 3 kierów
+                    2H słaby (12-13PC) z 3 kierami
+                    2S silny (13-14PC) z 3 kierami
+                    2N silny (13-14PC) bez 3 kierów
+            2C 16+PC, 5+trefli; F1
+                2D 10(9)+PC, dowolny GF (nie obiecuje kar!)
+                3C 7-9 z fitem
+                ... inne odzywki: słabe, propozycja kontraktu
+            2D 18+PC 3+kiery (odwrotka)
+                2H słaby (7-9PC) 4kiery
+                2S silny (10+PC) 4kiery
+                2N słaby (7-9PC) 5kierów
+                3C silny (10+PC) 5 kierów
+                ... itd
+            2H 12-14PC, 4kiery
+            2S 18+PC 6 pików bez 3 kierów
+            2N 18+PC bez 3 kierów
+        1S 7+PC 4 piki; piki nie krótsze niż piki. Przy 4-4 na starych zaczynamy od kierów; przy 5-5(6-6): od pików
+            1N brak 4 pików, słaby trefl
+                2C 10+PC, 5+pików (Magister) - pytanie o siłe i skład
+                    2D słaby (12-13PC) bez 3 pików
+                    2H silny (12-13PC) z 3 pikami
+                    2S słaby (13-14PC) z 3 kierami
+                    2N silny (13-14PC) bez 3 pików
+            2C 16+PC, 5+trefli; F1
+                2D 10(9)+PC, dowolny GF (nie obiecuje kar!)
+                3C 7-9 z fitem
+                ... inne odzywki: słabe, propozycja kontraktu
+            2D 18+PC 3+kiery (odwrotka)
+                2H słaby (7-9PC) 4kiery
+                2S silny (10+PC) 4kiery
+                2N słaby (7-9PC) 5kierów
+                3C silny (10+PC) 5 kierów
+                ... itd
+            2H 18+PC 5 kierów
+            2S 12-14PC 4 piki
+            2N 18+PC bez 3 kierów
+        1N 7-9PC brak starszej czwórki
+        2C 12+PC 5+ trefli
+        2D 12+PC 5+ kar
+        2H 15+PC (7)6+kierów, ręka jednokolorowa (samouzgodnienie koloru)
+        2S 15+PC (7)6+pików, ręka jednokolorowa (samouzgodnienie koloru)
+        2N 10-12PC inwit do 3BA bez starszych 4.
+        3C 9-11PC ładny kolor 6+kartowy
+        3D 9-11PC ładny kolor 6+kartowy
+   1D 12-17PC 5(4) kara; dopuszczamy układ 4441 (bez singla trefl) a także 5 trefli i 4 kara
+        2D 10+PC 4+kara (silne uzgodnienie kar)
+        3D 7-9PC,4+kara (blok)
+   1H 12-17PC 5 kierów
+        Pas 0-6PC bez ładnego fitu
+        1S 7+PC 4 piki
+            1N 12-14PC układ 5332
+                2C 10+PC, 5+pików (Magister) - pytanie o siłe i skład
+                    2D słaby (12-13PC) bez 3 pików
+                    2H silny (12-13PC) z 3 pikami
+                    2S słaby (13-14PC) z 3 kierami
+                    2N silny (13-14PC) bez 3 pików
+            2C 12-14PC 4+ trefle
+                2D 12+PC (czwarty kolor) GF w pierwszym czytaniu pytanie o trzymanie karo
+                    2H brak trzymania karo odchylenie dodatnie w kierach
+                    2S brak trzymania, odchylenie dodatnie w pikach
+                    2N trzymanie karo
+                    3C brak trzymania, odchylenie dodatnie w treflach
+            2D 12-14PC 4+ kara
+            2H 12-14PC 6+ kierów
+            2S 12-14PC 4+piki - uzgodnienie koloru
+            2N 15-17PC bez fitu pik
+            3C 15-17PC 5+ trefli
+            3D 15-17PC 5+ kar
+            3H 15-17PC 6+ kierów
+            3S 15-17PC 4+pik
+                pas do gry, minimum
+                3N ładna karta bez singla; wywołanie cue-bidu
+                    3C cue-bid trefl
+                    3D cue-bid karo
+                    3H cue-bid kier
+                    3S brak cue-bidu w innych kolorach
+                3C singiel(renons) trefl
+                3D singiel(renons) karo
+                3H singiel(renons) kier
+                4NT pytanie o asy na pikach
+        1N 7-11PC, brak fitu kier
+        2C 12+PC (4)5+ trefle (2 kara muszą być z piątki, więc 2 trefle czasami mogą być "krzywe")
+        2D 12+PC 5+ kar
+        2H 7-9PC fit kierowy
+        2S 15+PC (7)6+pików, ręka jednokolorowa (samouzgodnienie koloru)
+        2N co najmniej inwit z fitem
+        3C 9-11PC ładny kolor 6+kartowy, 1 lub 2 kiery
+        3D 9-11PC ładny kolor 6+kartowy, 1 lub 2 kiery
+        3H blok (4+kiery, 4-7PC)
+   1S 12-17PC 5 pików
+        Pas 0-6PC bez ładnego fitu
+        1N 7-11PC, brak fitu pik
+        2C 12+PC (4)5+ trefle (2 kara muszą być z piątki, więc 2 trefle czasami mogą być "krzywe")
+        2D 12+PC 5+ kar
+        2H 12+ 5+ kierów albo 10-11PC 6 kierów
+            2S 12-14PC bez fitu kier
+                2N 12+PC bez bocznej czwórki i fitu pik
+                3T 12+PC 4+ trefle
+                3K 12+PC 4+ kara
+                3H 12+PC 6+kierów - 10-11PC
+                3S 12+PC fit(3+) pik
+            2N 15-17PC układ zrównoważony
+                3T 4+ trefle
+                3K 4+ kara
+                3H 6+kierów
+                3S fit(3+) pik
+                    3N propozycja kontraktu
+                    3T cue-bid trefl
+                    3K cue-bid karo, brak cue-bidu trefl
+                    3H cue-bid kier, brak cue-bidów trefl i karo
+                    3S minimum - do gry
+                    4N pytanie o asy na uzgodnionych pikach
+                3N do gry
+            3C 15-17PC, 4+ trefl
+            3D 15-17PC, 4+ kara
+            3H fit (3+) kier, uzgodnienie koloru
+                3S cue-bid pik
+                    3N ładna karta bez singla
+                        4T cue bid trefl
+                        4K cue bid karo bez cue-bidu trefl
+                    4T singiel trefl
+                    4K singiel karo
+                    4H minimum - do gry
+                3N ładna karta bez cue-bidu pik i singla
+                4T singiel trefl
+                4K singiel karo
+                4H minimum - do gry
+        2S 7-9PC fit pikowy
+        2N co najmniej inwit z fitem
+        3C 9-11PC ładny kolor 6+kartowy, 1 lub 2 kiery
+        3D 9-11PC ładny kolor 6+kartowy, 1 lub 2 kiery
+        3H blok (4+kiery, 4-7PC)
+   1N 15-17PC, układ zrównoważony bez starszej 5.
+        2C (Stayman) pytanie o starsze 4.
+            2D brak
+            2H 4 kiery, być może 4 piki
+            2S 4 piki, brak 4 kierów
+        2D transfer na kiery
+            2H automatyczne
+        2H transfer na piki
+            2S automatyczne
+        2S transfer na trefle
+            2N mocne przyjęcie (do 8PC na 6treflach chcemy grać 3BA)
+                3C do pasa
+            3C słabe przyjęcie
+        2N 9-11PC inwit
+        3C transfer na kara - słaby (6+kar) lub silny (GF)
+        3D 6+kar 7-9PC - inwit do 3BA
+        3H 10+PC 5+4+ na młodych 3(2) piki 1(0) kierów
+        3S 10+PC 5+4+ na młodych 3(2) kiery 1(0) pików
+        4N inwit do 6BA (15-17PC)
+            Pas inwit nieprzyjęty
+            5C - 0 lub 3 asy (z 4)
+            5D - 1 lub 4 asy (z 4)
+            5H - 2 asy
+   2C (Precision)12-15PC, 6+trefli albo 5+trefli 4kiery lub piki
+        2D pytanie o skład - różne ręce, w tym wszystkie silne
+            2H - 4 kiery
+                2S - 3ci kolor (trzymanie pik)
+            2S - 4 piki
+            2N - brak 4ki kier/pik; góra
+            2N - brak 4ki kier/pik; dół
+        2H 7-10PC 5+kierów; nie forsuje
+        2S 7-10PC 5+pików; nie forsuje
+        2N 10-12PC - inwit do 3BA bez starszej 4
+        3C blok
+        4C blok
+   2D (Multi)6-10PC, 6+kierów lub pików bez drugiej starszej czwórki
+        2H pasuj, jeśli masz kiery
+        2S pasuje, jeśli masz piki; licytuj 3!h jeśli masz kiery
+        2N pytanie o siłe i skłąd
+            3C maksimum
+                3D automat; kiery, czy piki?
+                    3H kiery
+                    3S piki
+            3H słabe na kierach
+            3S słabe na pikach
+        3C 5+trefli; forsing
+        3D 5+kar; forsing
+        3H 5+kier; forsing
+        3S 5+pik; forsing
+        4H do koloru - blokujące z fitami w starszych
+            pas mam kiery
+            4S mam piki
+   2H 6-10PC 5+kierów 5+inne
+        2S spasuj z pikami zalicytuj młodszy bez
+            Pas mam piki
+            3C mam trefle
+            3D mam kara
+        2N pytanie
+            3C mam trefle
+            3D mam kara
+            3H mam piki
+        3C 5+trefli; forsing
+        3D 5+kar; forsing
+        3H przedłużenie bloku
+        3S 5+pik; forsing
+   2S 6-10PC 5+pików, 5+trefli lub kar
+        2N pytanie
+            3C mam trefle
+            3D mam kara
+            3H mam kiery
+        3C 5+trefli; forsing
+        3D 5+kar; forsing
+        3H 5+kierów; forsing
+        3S przedłużenie bloku
+   2N 6-10PC 5+trefli i 5+kar
+   3C blok (przed partią może być 6 trefli, po partii 7)
+   3D blok (przed partią może być 6 kar, po partii 7)
+   3H blok (7 kierów)
+   3P blok (7+pików)

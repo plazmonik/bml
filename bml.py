@@ -308,7 +308,7 @@ def include_file(matchobj):
 def content_from_file(filename):
     global content
     paragraphs = []
-    with open(filename, 'r') as f:
+    with open(filename, 'r', encoding='utf-8') as f:
         text = f.read()
         text = re.sub(r'^\s*#\s*INCLUDE\s*(\S+)\s*\n?', include_file, text, flags=re.MULTILINE)
         text = re.sub(r'^//.*\n', '', text, flags=re.MULTILINE)
@@ -322,4 +322,5 @@ def content_from_file(filename):
             
 if __name__ == '__main__':
     # print('To use BML, use the subprograms bml2html, bml2latex or bml2bss')
-    content_from_file('test.bml')
+   content_from_file('wj3/nasz_wj.txt')
+

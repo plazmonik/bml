@@ -1,10 +1,19 @@
 import re
 import bml
 import xml.etree.ElementTree as ET
+import random
+import string
 
 def html_bidtable(et_element, children):
     if len(children) > 0:
+        ET.SubElement(et_element,'br')
+        bt = ET.SubElement(et_element, 'button')
+        el_id = ''.join(random.choices(string.ascii_letters, k=8))
+        bt.attrib['onclick'] = f"show_hide_bid('{el_id}')"
+        bt.text = 'Click'
         ul = ET.SubElement(et_element, 'ul')
+        ul.attrib['style'] = 'display: none'
+        ul.attrib['id'] = el_id
         for c in children:
             li = ET.SubElement(ul, 'li')
             div = ET.SubElement(li, 'div')
@@ -50,6 +59,16 @@ def to_html(content):
     link.attrib['type'] = 'text/css'
     link.attrib['href'] = 'bml.css'
     body = ET.SubElement(html, 'body')
+    script = ET.SubElement(html,'script')
+    script.text = """
+    function show_hide_bid(element) {
+  var x = document.getElementById(element);
+  if (x.style.display === "none") {
+    x.style.display = "block";
+  } else {
+    x.style.display = "none";
+  }
+}"""
 
     for c in content:
         content_type, text = c
@@ -91,7 +110,7 @@ def to_html(content):
 
     htmlstring = re.sub(r'(?<=\s)\*(\S[^*<>]*)\*', replace_strong, htmlstring, flags=re.DOTALL)
     htmlstring = re.sub(r'(?<=\s)/(\S[^/<>]*)/', replace_italics, htmlstring, flags=re.DOTALL)
-    htmlstring = re.sub(r'(?<=\s)=(\S[^=<>]*)=', replace_truetype, htmlstring, flags=re.DOTALL)
+    # htmlstring = re.sub(r'(?<=\s)=(\S[^=<>]*)=', replace_truetype, htmlstring, flags=re.DOTALL)
 
     
     # Replaces !c!d!h!s with suit symbols
