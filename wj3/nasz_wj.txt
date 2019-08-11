@@ -141,8 +141,8 @@
         2H 12+ 5+ kierów albo 10-11PC 6 kierów
             2S 12-14PC bez fitu kier
                 2N 12+PC bez bocznej czwórki i fitu pik
-                3T 12+PC 4+ trefle
-                3K 12+PC 4+ kara
+                3C 12+PC 4+ trefle
+                3D 12+PC 4+ kara
                 3H 12+PC 6+kierów - 10-11PC
                 3S 12+PC fit(3+) pik
             2N 15-17PC układ zrównoważony
@@ -151,10 +151,10 @@
                 3H 6+kierów
                 3S fit(3+) pik
                     3N propozycja kontraktu
-                    3T cue-bid trefl
-                    3K cue-bid karo, brak cue-bidu trefl
-                    3H cue-bid kier, brak cue-bidów trefl i karo
-                    3S minimum - do gry
+                    4C cue-bid trefl
+                    4C cue-bid karo, brak cue-bidu trefl
+                    4H cue-bid kier, brak cue-bidów trefl i karo
+                    4S minimum - do gry
                     4N pytanie o asy na uzgodnionych pikach
                 3N do gry
             3C 15-17PC, 4+ trefl
