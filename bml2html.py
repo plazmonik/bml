@@ -147,6 +147,6 @@ if __name__ == '__main__':
         outputfile = os.path.basename(sys.argv[1]).split('.')[0]
         
     h = to_html(bml.content)
-    f = open(outputfile + '.htm', 'w')
+    f = open(outputfile + '.html', 'w')
     f.write(h)
     f.close()
