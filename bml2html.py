@@ -57,7 +57,7 @@ def to_html(content):
     link = ET.SubElement(head, 'link')
     link.attrib['rel'] = 'stylesheet'
     link.attrib['type'] = 'text/css'
-    link.attrib['href'] = 'bml.css'
+    link.attrib['href'] = 'https://bridge-team-webpage-bucket.s3-eu-west-1.amazonaws.com/bml.css'
     body = ET.SubElement(html, 'body')
     script = ET.SubElement(html,'script')
     script.text = """

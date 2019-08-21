@@ -1,16 +1,16 @@
     meta{charset:UTF-8}
+    html{font-family: Arial, Helvetica, sans-serif;}
 
     div.start
     {
         display: inline-block;
         vertical-align: top;
-        width: 60px;
+        width: 120px;
     }
     
     div.bidtable
     {
-    width:700px;
-    }    
+    }
     div.bidtable ul
     {
     list-style-type: none;
@@ -22,7 +22,7 @@
     list-style-type: none;
     margin: 0;
     padding: 0;
-    margin-left: 60px;
+    margin-left: 120px;
     }
 
     .ccolor{color:DarkBlue}
