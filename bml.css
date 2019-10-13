@@ -1,31 +1,52 @@
-    meta{charset:UTF-8}
+/*    meta{charset: UTF-8}*/
     html{font-family: Arial, Helvetica, sans-serif;}
-
-    div.start
-    {
-        display: inline-block;
-        vertical-align: top;
-        width: 120px;
-    }
-    
-    div.bidtable
-    {
-    }
-    div.bidtable ul
-    {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    }
-    div.bidtable li ul
-    {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    margin-left: 120px;
+    body{
+    background-color: #F5CF8E; /* Yellow */
     }
 
+    .start
+    {
+    width: 35px;
+    float: left;
+    }
+
+@media only screen and (max-width: 1000px){
+    body{
+    background-color: lightblue; /* Yellow */
+    }
+    .start
+    {
+    font-size: 33px;
+    width: 85px;
+    float: left;
+    }
+}
+
+.bidtable
+    {
+        background-color: #fbebd5;
+        border: double;
+        padding: 2px;
+        max-width: 1080px;
+    }
+.ul{
+    margin-left: 35px;
+    border: double;
+    padding: 2px
+}
+.li{
+    margin-left: 35px;
+    padding: 2px;
+}
     .ccolor{color:DarkBlue}
     .dcolor{color:Orange}
     .hcolor{color:Red}
     .scolor{color:Black}
+
+.button {
+  border: outset;
+  background-color: Orange;
+  cursor: pointer;
+  padding: 2px;
+  font-size: 75%;
+}
