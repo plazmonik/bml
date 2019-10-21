@@ -26,7 +26,7 @@
         0-6PC
         7-11PC bez starszej 4. na treflach i lub karach
         13+PC bez starszej 4. i młodszej 5.
-      1H = Słaby trefl, kiery nie gorsze od pików.
+      1H = Słaby trefl, kiery nie gorsze od pików
          2C = Wariant 2. 1!d - trefle lepsze od kar
          2D = Wariant 2. 1!d - kara nie gorsze od trefli
          2N = Wariant 3. 1!d
@@ -35,23 +35,23 @@
          2D = Wariant 2. 1!d - kara nie gorsze od trefli
          2N = Wariant 3. 1!d
       1N = 18-20pkt zrównoważony
-         2C = Stayman pytanie o starsze czwórki
+         2C = Stayman - pytanie o starsze czwórki
             2D = brak starszych czwórek
-            2H = 4 kiery, nie wyklucza 4 kierów
+            2H = 4 kiery, nie wyklucza 4 pików
             2S = 4 piki bez 4 kierów
          2D = transfer na kiery
-            2C = automat
+            2H = automat
          2H = transfer na piki
             2S = automat
          2S = transfer na trefle
-         2N = inwit do 3 BA
+         2N = inwit do 3BA
          3C = transfer na kara (słaby lub silny)
-         3D = inwit z 6(5+) kar
-      2C = 16+pkt 5+ trefli
-      2D = FG dowolna karta(Acol)
-      2H = 5+ kierów silny trefl
-      2S = 5+ pików silny trefl
-      2N = 21-24pkt zrównoważony
+         3D = inwit do 3BA z 6(5+) kar
+      2C = 16+PC, 5+ trefli
+      2D = FG dowolna karta (Acol)
+      2H = 5+ kierów, silny trefl
+      2S = 5+ pików, silny trefl
+      2N = 21-24PC zrównoważony
       3C = silny trefl, 6+ trefli
       3D = silny trefl, 6+ kar
    1H = 7+PC 4 kiery; kiery nie krótsze niż piki. Przy 4-4 na starych zaczynamy od kierów; przy 5-5: od pików
