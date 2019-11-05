@@ -114,7 +114,7 @@
 1D = 12-17PC 5(4) kara; dopuszczamy układ 4441 (bez singla karo) a także 5 trefli i 4 kara
    1H = 7+PC, 4+ kiery
    1S = 7+PC, 4+ piki
-   1N = 7-11PC bez starszej 4.
+   1N = 7-9PC bez starszej 4.
    2C = 12+PC, 5+ trefli
    2D = 10+PC, 4+kara (silne uzgodnienie kar)
    2H = 15+PC, 7(6)+kierów, ręka jednokolorowa (samouzgodnienie koloru)
