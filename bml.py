@@ -8,6 +8,7 @@ content = []
 clipboard = {}
 
 vulnerability = '00'
+
 seat = '0'
 
 # meta information about the BML-file, supported:

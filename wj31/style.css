@@ -1,0 +1,95 @@
+.scolor {
+    color: blue;
+}
+
+.hcolor {
+    color: red;
+}
+
+.dcolor {
+    color: orange;
+}
+
+.ccolor {
+    color: green;
+}
+
+.pcolor {
+    font-size: large;
+}
+
+td {
+    vertical-align: middle;
+}
+
+body {
+    font-size: large;
+    background-color: lightblue;
+}
+
+div.button {
+    width: 46px;
+    height: 46px;
+    text-align: center;
+    font-size: x-large;
+    background-color: lightgray;
+    vertical-align: middle;
+    line-height: 46px;
+    user-select: none;
+    border: 2px solid #000000;
+}
+
+div.button.opened {
+    border: 5px solid #a00000;
+}
+
+div.button.closed {
+    border: 2px solid #ff7c25;
+}
+
+div#button1 {
+    font-size: x-large;
+    width: 200px;
+    height: 60px;
+    line-height: 30px;
+}
+
+div#button2 {
+    font-size: x-large;
+    width: 200px;
+    height: 60px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+div#button3 {
+    font-size: x-large;
+    width: 200px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+div#button4 {
+    font-size: x-large;
+    width: 200px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+div#button5 {
+    font-size: x-large;
+    width: 200px;
+    height: 40px;
+    line-height: 30px;
+    margin-top: 5px;
+}
+
+.backgroundOdd {
+    background-color: lightgreen;
+}
+
+.backgroundEven {
+    background-color: lightblue;
+}
