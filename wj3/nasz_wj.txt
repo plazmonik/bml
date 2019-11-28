@@ -133,12 +133,13 @@
             2N = silny (13-14PC) bez 3 pików
       2C = 12-14PC, 4+ trefle
          2D = 12+PC (czwarty kolor) GF, w pierwszym czytaniu pytanie o trzymanie karo
-         2N = 10+PC z trzymaniem karo - inwit do 3NT
             2H = brak trzymania karo, odchylenie dodatnie w kierach
             2S = brak trzymania, odchylenie dodatnie w pikach
             2N = trzymanie karo
             3C = brak trzymania, odchylenie dodatnie w treflach
+         2N = 10+PC z trzymaniem karo - inwit do 3NT
       2D = 12-14PC, 4+ kara
+         2N = 10+PC z trzymaniem karo - inwit do 3NT
          3C = 12+PC (czwarty kolor) GF, w pierwszym czytaniu pytanie o trzymanie trefl
             3D = brak trzymania trefl, 5+ kar
             3H = brak trzymania trefl
