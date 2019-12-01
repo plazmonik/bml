@@ -4,7 +4,6 @@ import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.*;
-import java.util.function.Function;
 
 public class Converter {
     public static void main(String[] args) {
@@ -15,7 +14,7 @@ public class Converter {
             String[] lines = new String[1000];
 
             int i = 0;
-            while ((String line = b.readLine()) != null) {
+            while ((String line = b.readLine()) !=null){
                 lines[i++] = line;
             }
 
@@ -29,7 +28,7 @@ public class Converter {
         }
     }
 
-    private static JSONObject parse(String[] lines, int lineNo, LineWrapper lineWrapper) throws IOException{
+    private static JSONObject parse(String[] lines, int lineNo, LineWrapper lineWrapper) throws IOException {
         if (lines[lineNo] == null) {
             return null;
         }
@@ -65,10 +64,6 @@ public class Converter {
         }
     }
 
-    static class LineWrapper {
-        public int line;
-    }
-
     private static boolean startsWithCall(String line) {
         line = line.strip();
         char a = line.charAt(0);
@@ -88,5 +83,9 @@ public class Converter {
             line = line.substring(1);
         }
         return depth;
+    }
+
+    static class LineWrapper {
+        public int line;
     }
 }
