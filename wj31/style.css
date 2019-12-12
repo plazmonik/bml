@@ -72,3 +72,9 @@ table.tabela_kontr {
 table.tabela_kontr tr td {
     border: 1px solid black;
 }
+
+.kontraClass {
+    margin-left: 1em;
+    padding-left: 0.5em;
+    padding-top: 0px;
+}
