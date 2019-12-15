@@ -446,7 +446,7 @@ var jednostronna =
             "answers": {
               "3C": {
                 "description": [
-                  "silny (10+PC), 5 kierów"
+                  "silny (10+PC), 5 pików"
                 ]
               },
               "..": {
@@ -456,22 +456,22 @@ var jednostronna =
               },
               "2S": {
                 "description": [
-                  "silny (10+PC), 4 kiery"
+                  "silny (10+PC), 4 piki"
                 ]
               },
               "2H": {
                 "description": [
-                  "słaby (7-9PC), 4 kiery"
+                  "słaby (7-9PC), 4 piki"
                 ]
               },
               "2N": {
                 "description": [
-                  "słaby (7-9PC), 5 kierów"
+                  "słaby (7-9PC), 5 pików"
                 ]
               }
             },
             "description": [
-              "18+PC, 3+kiery (odwrotka)"
+              "18+PC, 3+piki (odwrotka)"
             ]
           },
           "2H": {
@@ -481,7 +481,7 @@ var jednostronna =
           },
           "2N": {
             "description": [
-              "18+PC bez 3 kierów"
+              "18+PC bez 3 pików"
             ]
           },
           "1N": {
