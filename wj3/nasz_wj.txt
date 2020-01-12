@@ -12,9 +12,7 @@
 
    Otwarcie 2!d: Multi, 2!h/!s/BA - słabe dwukolorówki. 2o1 - forsing do końcówki.
 
-   Konwencje *używane:* Magister, Blackwood:  031425 na 5 wartości skrócony z Królami. 4ty kolor, 3ci kolor.
-
-   Konwencje *nieużywane:* Lebesohl, Drury, kolor+fit;
+   Konwencje *używane:* Magister, Blackwood:  031425 na 5 wartości skrócony z Królami. 4ty kolor, 3ci kolor, Drury, Kolor+Fit
 
 ** Licytacja jednostronna:
 
@@ -44,30 +42,33 @@
          2H = transfer na piki
             2S = automat
          2S = transfer na trefle
-            2N = 20(19) pkt, trzymanie kar, kierów i pików
+            2N = 20(19) pkt, chcę grać 3N jeżeli partner ma 6 trefli z jedną figurą bez dojścia
             3C = najsłabszy silny trefl
          2N = inwit do 3BA
          3C = transfer na kara (słaby lub silny)
-            3D = automat?
-         3D = inwit do 3BA z 6(5+) kar i istnieniem potencjalnego niekarowego przejścia na stół
+            3D = automat
+         3D = inwit do 3BA z 6(5+) kar z jedną figurą bez bocznego dojścia
       2C = 16+PC, 5+ trefli
          P  = dół negatu
          2D = Wariant 2. 1!d na karach
          2H = Wariant 1. 1!d, 4+ kiery
          2S = Wariant 1. 1!d, 4+ piki
-         2N = Wariant 1. 1!d, brak starszej czwórki i 3 trefli (domniemane kara)
-         3C = Wariant 1. 1!d, fit treflowy, brak starszych czwórek?
+         2N = Wariant 1. 1!d, brak starszej czwórki i 3 trefli
+         3C = Wariant 1. 1!d, fit treflowy, brak starszych czwórek? tak
          3D = Wariant 3. 1!d, 6(5) kar, może zagrajmy coś lepszego niż 3BA
          3H = Wariant 2. 1!d, góra pkt, singiel lub renons kier, ustalenie trefli
-             3N = do pasa, trzymam dobrze kiery czy wywołanie que-bidów?
+             3S = cue-bid pikowy
+             3N = do gry
+             4C = ustalenie koloru, wywołanie cue-bidów
          3S = Wariant 2. 1!d, góra pkt, singiel lub renons pik, ustalenie trefli
-             3N = do pasa, trzymam dobrze piki czy wywołanie que-bidów?
+             3N = do gry
+             4C = wywołanie cue-bidów
          3N = Wariant 3. 1!d, minimum pkt (koło 13)
          4C = Wariant 3. 1!d, ustalenie trefli
       2D = GF (forsing do końcówki) dowolna karta (Acol)
       2H = 5+ kierów, silny trefl
       2S = 5+ pików, silny trefl
-      3C = silny trefl, 6+ trefli
+      3C = 6+ trefli - podacol (brakuje jednej figury do końcówki)
       3D = silny trefl, 6+ kar
    1H = 7+PC, 4 kiery; kiery nie krótsze niż piki. Przy 4-4 na starych zaczynamy od kierów; przy 5-5: od pików
       1S = 4+ pik, F1 (forsing na jedno okrążenie), ciągle dopuszczamy silnego trefla
@@ -88,6 +89,10 @@
             2N = silny (13-14PC) bez 3 kierów
       2C = 16+PC, 5+trefli; F1
          2D = 10(9)+PC, dowolny GF (nie obiecuje kar!)
+            2H = 4 kiery
+            2S = 4 piki
+            2N = karta zrównoważona bez starszej 4.
+            3C = 6+ trefli
          3C = 7-9 z fitem
          .. = inne odzywki: słabe, propozycja kontraktu
       2D = 18+PC, 3+kiery (odwrotka)
@@ -108,6 +113,10 @@
             2N = silny (13-14PC) bez 3 pików
       2C = 16+PC, 5+trefli; F1
          2D = 10(9)+PC, dowolny GF (nie obiecuje kar!)
+            2H = 4 kiery
+            2S = 4 piki
+            2N = karta zrównoważona bez starszej 4.
+            3C = 6+ trefli
          3C = 7-9 z fitem
          .. =  inne odzywki: słabe, propozycja kontraktu
       2D = 18+PC, 3+piki (odwrotka)
@@ -259,15 +268,15 @@
    2C = (Stayman) pytanie o starsze 4, co najmniej jedna starsza czwórka, 8+ pkt
       2D = brak
       2H = 4 kiery, być może 4 piki
-         P  = 3 lub 4 kiery i dół punktów
          2S = 4 piki, dół punktów
          2N = 4 piki, nadwyżka punktów
-         3C = 4 piki i 4+ trefle
-         3D = 4 piki i 4+ kara
+         3C = 4 kiery i 4+ trefle
+         3D = 4 kiery i 4+ kara
          3H = 4 kiery, inwit do 4!h
       2S = 4 piki, brak 4 kierów
-         P = 3 lub 4 piki i dół punktów
-         2N = brak 4 pików (czyli 4 kiery), inwit do 3!n przy bardzo ładnej ręce partnera
+         2N = brak 4 pików (czyli 4 kiery), inwit do 3!n
+         3C = 4 piki i 4+ trefle
+         3D = 4 piki i 4+ trefle
          3S = 4 piki, inwit do 4!s
          3N = brak 4 pików (czyli 4 kiery), do pasa
    2D = transfer na kiery
@@ -282,7 +291,11 @@
    3C = transfer na kara - słaby (6+kar) lub silny (GF)
       3D = automat
          P  = opcja słaba
-         3N = opcja silna - i co dalej? jak partner ma ładny fit karowy to zgłasza que-bid i grają 5 lub 6 karo?
+         3H = 5+kar, 4+kiery, silne
+         3S = 5+kar, 4+piki, silne
+         3N = inwit do 6!d albo 6!n
+         4T = cue-bid treflowy, samouzgodnienie
+         4K = samouzgodnienie, wywołanie cue-bidów
    3D = 6+kar, 7-9PC - inwit do 3BA
    3H = 10+PC 5+4+ na młodych 3(2) piki 1(0) kierów
       3S = ładne 4 piki bez trzymania kier- "może zagramy 4 piki na 7miu atutach?"
@@ -444,6 +457,7 @@ licytujemy tak, jakby otwarcia nie było (x = 1!c)
 - jeżeli partner pokazał 4kę (np. 1Trefl-(pas)-1kier-(2karo)-x kontra to kontra fit - dokładnie 3 karty w kolorze
 - 1po 1Trefl i x - pas - negat, 1karo - naturalne, resztę tak, jakby kontry nie było
 - po 1Trefl/karo -(1kier) - 1pik: 5 pików; x - 4 piki.
+- po otwarciu 1bez atu i wejściu przeciwnika - każda odzywka jest transferem! transfer na kolor przeciwnika to pytanie o trzymanie.
 
 ** Opis konwencji
 
@@ -463,3 +477,8 @@ zalicytowanie koloru na poziomie 3kier lub więcej po uzgodnieniu koloru: Que-bi
 zalicytowanie przez odpowiadającego 2 trefl, jeśli w pierwszej odzywce dał 1kier lub 1pik (z czwórki): min. 10PC, pytanie o fit 3kartowy i siły otwierającego. Odpowiedzi: 2karo - słaby, bez fitu; 2BA - silny - bez fitu; 2 w kolor wcześniej licytowany (po 1 kier 2 kier, po 1 pik - 2 pik): słaby z fitem 3kartowym; 2 w drugi starszy kolor: silny z fitem 3 kartowym
 - Pas forsujący:
 jeżeli nasza strona ma przewagę siły i pierwsza zalicytowała/sforsowała końcówkę, a przeciwnicy blokują, Pas oznacza niepewność, czy lepiej iść wyżej, czy ich kontrować. Nie możemy pozwolić im grać bez kontry.
+- Kolor + fit:
+w licytacji dwustronnej - skok nowym kolorem oznacza 5kart w tym kolorze plus fit w kolorze partnera
+- Drury:
+Po otwarciu 1!h/1!s na 3/4tym ręku, albo po wejściu 1!h/1!s po otwarciu przeciwnika - zalicytowanie 2!c oznacza pytanie o siłe otwarcia/wejścia z fitem.
+Dalsze odpowiedzi: 2!d - "normalne" słabe otwarcie, powtórzenie koloru - otwarcie podlimitowe (9-11pkt), inne: 14+PC, naturalne.
