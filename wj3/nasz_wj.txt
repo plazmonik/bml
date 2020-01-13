@@ -32,7 +32,7 @@
          2C = Wariant 2. 1!d - trefle lepsze od kar
          2D = Wariant 2. 1!d - kara nie gorsze od trefli
          2N = Wariant 3. 1!d
-      1N = 18-20pkt zrównoważony
+      1N = 18-20 pkt zrównoważony (ewentualnie 4441)
          2C = Stayman - pytanie o starsze czwórki
             2D = brak starszych czwórek
             2H = 4 kiery, nie wyklucza 4 pików
@@ -54,7 +54,7 @@
          2H = Wariant 1. 1!d, 4+ kiery
          2S = Wariant 1. 1!d, 4+ piki
          2N = Wariant 1. 1!d, brak starszej czwórki i 3 trefli
-         3C = Wariant 1. 1!d, fit treflowy, brak starszych czwórek? tak
+         3C = Wariant 1. 1!d, fit treflowy, brak starszych czwórek
          3D = Wariant 3. 1!d, 6(5) kar, może zagrajmy coś lepszego niż 3BA
          3H = Wariant 2. 1!d, góra pkt, singiel lub renons kier, ustalenie trefli
              3S = cue-bid pikowy
@@ -62,14 +62,15 @@
              4C = ustalenie koloru, wywołanie cue-bidów
          3S = Wariant 2. 1!d, góra pkt, singiel lub renons pik, ustalenie trefli
              3N = do gry
-             4C = wywołanie cue-bidów
+             4C = ustalenie koloru, wywołanie cue-bidów
          3N = Wariant 3. 1!d, minimum pkt (koło 13)
-         4C = Wariant 3. 1!d, ustalenie trefli
+         4C = Wariant 3. 1!d, ustalenie trefli, wywołanie cue-bidów
       2D = GF (forsing do końcówki) dowolna karta (Acol)
       2H = 5+ kierów, silny trefl
       2S = 5+ pików, silny trefl
+      2N = 21-24 pkt, skład zrównoważony
       3C = 6+ trefli - podacol (brakuje jednej figury do końcówki)
-      3D = silny trefl, 6+ kar
+      3D = silny trefl, 6+ kar (lub 5 kar, ale skład niezrównoważony i niemożność powiedzenia 1NT)
    1H = 7+PC, 4 kiery; kiery nie krótsze niż piki. Przy 4-4 na starych zaczynamy od kierów; przy 5-5: od pików
       1S = 4+ pik, F1 (forsing na jedno okrążenie), ciągle dopuszczamy silnego trefla
          1N = do gry
@@ -275,16 +276,30 @@
          3H = 4 kiery, inwit do 4!h
       2S = 4 piki, brak 4 kierów
          2N = brak 4 pików (czyli 4 kiery), inwit do 3!n
-         3C = 4 piki i 4+ trefle
-         3D = 4 piki i 4+ trefle
+         3C = 4 piki i 4+ trefle ??myślałam, że w górach ustaliliśmy, że to były 4 kiery - nie można na to spasować??
+         3D = 4 piki i 4+ kara
+         3H = co by to było??
          3S = 4 piki, inwit do 4!s
          3N = brak 4 pików (czyli 4 kiery), do pasa
    2D = transfer na kiery
       2H = automatyczne
+         P  = minimum punktów
+         2S = 5 kierów, 4 piki ??A może nie informować przeciwników o składzie - spora szansa, że zagramy 3BA??
+         2N = 5 kierów, skład zrównoważony, forsing ??ma sens, bo nie mam pojęcia co to znaczy??
+            3C = fit kier, 4+ trefli
+            3D = fit kier, 4+ kar
+            3H = fit kier, góra punktów
+            3S = fit kier, 4 piki
+            3N = 2 kiery
+            4H = fit kier, dół punktów
+         3C = 5 kierów, 4+ trefle
+         3D = 5 kierów, 4+ kara
+         3H = inwit do 4!h lub 3BA
+         4H = 6+ kierów
    2H = transfer na piki
       2S = automatyczne
    2S = transfer na trefle
-      2N = mocne przyjęcie (do 8PC na 6treflach chcemy grać 3BA)
+      2N = mocne przyjęcie (do 8PC na 6 treflach chcemy grać 3BA)
          3C = do pasa
       3C = słabe przyjęcie
    2N = 9-11PC, inwit
@@ -293,11 +308,14 @@
          P  = opcja słaba
          3H = 5+kar, 4+kiery, silne
          3S = 5+kar, 4+piki, silne
-         3N = inwit do 6!d albo 6!n
-         4T = cue-bid treflowy, samouzgodnienie
-         4K = samouzgodnienie, wywołanie cue-bidów
+         3N = inwit do 6!d albo 6BA
+         4C = cue-bid treflowy, samouzgodnienie kar
+            4D = co by to znaczyło??
+         4D = samouzgodnienie, wywołanie cue-bidów
    3D = 6+kar, 7-9PC - inwit do 3BA
-   3H = 10+PC 5+4+ na młodych 3(2) piki 1(0) kierów
+      3N = lepiej 3N, bo szlemik karowy pewnie nie idzie (dół otwarcia, słaby fit)
+      4D = ładna karta z ładnym fitem karowym, myślimy o szlemiku, dalej mogą np. być cue-bidy albo pytanie o asy
+   3H = 10+PC, 5+4+ na młodych, 3(2) piki, 1(0) kierów
       3S = ładne 4 piki bez trzymania kier- "może zagramy 4 piki na 7miu atutach?"
          3N = nie chcę grać w piki, trefle takie same jak kara
          4C = wolę w trefle
@@ -306,7 +324,7 @@
       3N = do gry
       4C = uzgodnienie trefli, wywołanie cue-bidów
       4D = uzgodnienie kar, wywołanie cue-bidów
-      4H = maksimum z fitami w obu młodszych (uzgodnienie dwóch kolorów na raz)
+      4H = silne z fitami w obu młodszych (uzgodnienie dwóch kolorów na raz)
          4N = pytanie o 4 asy
          5H = Blackowood wyłączeniowy (pytanie o 3 asy - poza kierowym) - renons kier
       4N = minimum z fitami w obu młodszych
@@ -315,17 +333,17 @@
          5H = Blackowood wyłączeniowy (pytanie o 3 asy - poza kierowym) - renons kier
       5C = do gry
       5D = do gry
-   3S = 10+PC 5+4+ na młodych 3(2) kiery 1(0) pików
+   3S = 10+PC, 5+4+ na młodych, 3(2) kiery, 1(0) pików
       3N = do gry
       4C = uzgodnienie trefli, wywołanie cue-bidów
       4D = uzgodnienie kar, wywołanie cue-bidów
       4H = silne z fitami w obu młodszych (uzgodnienie dwóch kolorów na raz)
-         4S Blackwood wyłączeniowy (pytanie 0 3 asy - poza pikowym) - renons pik
+         4S = Blackwood wyłączeniowy (pytanie o 3 asy - poza pikowym) - renons pik
          4N = pytanie o 4 asy
       4N = minimum z fitami w obu młodszych
          5C = do gry
          5D = do gry
-         5S = Blackwood wyłączeniowy (pytanie 0 3 asy - poza pikowym) - renons pik
+         5S = Blackwood wyłączeniowy (pytanie o 3 asy - poza pikowym) - renons pik
    4N = inwit do 6BA (15-17PC)
       P  = inwit nieprzyjęty
       5C = 0 lub 3 asy (z 4)
@@ -423,8 +441,8 @@ licytujemy tak, jakby otwarcia nie było (x = 1!c)
 
    Żeby licytować, potrzebny jest układ:
 
-   (1NT)
-       D 5 młodsza i 4 starsza
+   1NT
+       D  5 młodsza i 4 starsza
        2C min. 44 na starszych
             2D pytanie o skład
                 2H kiery nie gorsze od pików
@@ -432,20 +450,22 @@ licytujemy tak, jakby otwarcia nie było (x = 1!c)
             2H chcę grać 2H
             2S chcę grać 2S
        2D mutli (może być czasami z 5. i w dowolnej sile)
-           2H pasuj, jeśli masz kiery
-           2S pasuje, jeśli masz piki; licytuj 3!h jeśli masz kiery
-           2N pytanie o siłę i skład
-               3C maksimum
-                  3D automat; kiery, czy piki?
-                      3H kiery
-                      3S piki
-               3H słabe na kierach
-               3S słabe na pikach
-       2H 5+kierów 4+młodsze
-       2S 5+pików 4+młodsze
-       2N 5+/5+ młodsze
+            2H pasuj, jeśli masz kiery
+            2S pasuj, jeśli masz piki; licytuj 3!h jeśli masz kiery
+            2N pytanie o siłę i skład
+                3C maksimum
+                    3D automat; kiery czy piki?
+                        3H kiery
+                        3S piki
+                3H słabe na kierach
+                3S słabe na pikach
+       2H 5+kierów, 4+młodsze
+       2S 5+pików, 4+młodsze
+       2N min. 55 na młodszych
+       3C blok 7+ trefli, które nie obalą 3BA
+       3D blok 7+ kar, które nie obalą 3BA
 
-       Po 1NT - Pas - Pas tak samo, (ale można licytować odważniej i ze słabszym układem)
+   Po 1NT - Pas - Pas tak samo, (ale można licytować odważniej i ze słabszym układem)
 
 ** Generalne zasady licytacji dwustronnej
 
