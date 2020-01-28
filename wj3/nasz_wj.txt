@@ -455,7 +455,7 @@ licytujemy tak, jakby otwarcia nie było (x = 1!c)
 - 2BA - po wejściu przeciwnika: inwit do końcówki z fitem
 - rekontra: 10+PC bez fitu
 - jeżeli partner pokazał 4kę (np. 1Trefl-(pas)-1kier-(2karo)-x kontra to kontra fit - dokładnie 3 karty w kolorze
-- 1po 1Trefl i x - pas - negat, 1karo - naturalne, resztę tak, jakby kontry nie było
+- po 1Trefl i x - pas - negat, 1karo - naturalne, resztę tak, jakby kontry nie było
 - po 1Trefl/karo -(1kier) - 1pik: 5 pików; x - 4 piki.
 - po otwarciu 1bez atu i wejściu przeciwnika - każda odzywka jest transferem! transfer na kolor przeciwnika to pytanie o trzymanie.
 
