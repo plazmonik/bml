@@ -82,7 +82,6 @@ def to_html(content):
 }"""
 
     for c in content:
-        print(c)
         content_type, text = c
         if content_type == bml.ContentType.PARAGRAPH:
             element = ET.SubElement(body, 'p')
