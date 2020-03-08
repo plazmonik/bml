@@ -1,9 +1,27 @@
 package com.company;
 
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.JSONArray;
 import org.json.JSONObject;
 
 import java.io.*;
+import java.util.TreeMap;
+
+/*
+        <!-- https://mvnrepository.com/artifact/org.json/json -->
+        <dependency>
+            <groupId>org.json</groupId>
+            <artifactId>json</artifactId>
+            <version>20190722</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
+        <dependency>
+            <groupId>com.fasterxml.jackson.core</groupId>
+            <artifactId>jackson-databind</artifactId>
+            <version>2.10.1</version>
+        </dependency>
+ */
 
 public class Converter {
     public static void main(String[] args) {
@@ -14,14 +32,20 @@ public class Converter {
             String[] lines = new String[1000];
 
             int i = 0;
-            while ((String line = b.readLine()) !=null){
+            String line;
+            while ((line = b.readLine()) != null) {
                 lines[i++] = line;
             }
 
             JSONObject res = parse(lines, 0, new LineWrapper());
-            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\Tom\\Temp\\r.json"));
-            writer.write(res.getJSONObject("answers").toString());
+            BufferedWriter writer = new BufferedWriter(new FileWriter("C:\\Users\\Tom\\Temp\\jednostronna.json"));
+            String jsonString = res.getJSONObject("answers").toString();
 
+            ObjectMapper mapper = new ObjectMapper();
+            TreeMap<String, Object> jsonMap = mapper.readValue(jsonString, new TypeReference<>() {
+            });
+            String ss = mapper.writeValueAsString(jsonMap);
+            writer.write(ss);
             writer.close();
         } catch (IOException e) {
             throw new RuntimeException(e);

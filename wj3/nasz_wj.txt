@@ -71,7 +71,7 @@
       2H = 5+ kierów, silny trefl
       2S = 5+ pików, silny trefl
       2N = 21-24PC, skład zrównoważony
-         3C = Stayman (pytanie o st. 4ki), z min. jedną starszą 4. 
+         3C = Stayman (pytanie o st. 4ki), z min. jedną starszą 4.
             3D = brak starszych 4
             3H = 4 kiery, nie wyklucze 4 pików
             3S = 4 piki, wyklucza 4 kiery
@@ -177,7 +177,7 @@
             2D = słaby (12-13PC) bez 3 kierów
             2H = słaby (12-13PC) z 3 kierami
             2S = silny (13-14PC) z 3 kierami
-            2N = silny (13-14PC) bez 3 kierów           
+            2N = silny (13-14PC) bez 3 kierów
       2C = 12-14PC min 5+ 4+ w treflach i karach (4ka może być za równo treflowa, jak i karowa)
          2H = 5+kierów, 7+9PC
          2S = 12+PC 4ty kolor
@@ -192,7 +192,7 @@
             2D = słaby (12-13PC) bez 3 pików
             2H = słaby (12-13PC) z 3 pikami
             2S = silny (13-14PC) z 3 pikami
-            2N = silny (13-14PC) bez 3 pików      
+            2N = silny (13-14PC) bez 3 pików
       2C = 12-14PC min 5+ 4+ w treflach i karach (4ka może być za równo treflowa, jak i karowa)
          2H = 12+PC, 4ty kolor
          2S = 7-9PC 5+pików
@@ -207,7 +207,7 @@
       2D = 6+kar, 12-17PC
       2H = 4 kiery, 12-17PC
       2S = 4 piki, 12-17PC
-      2N = 12-17, bez 4. starszej, 5ciu kar, i fitu trefl 
+      2N = 12-17, bez 4. starszej, 5ciu kar, i fitu trefl
       3C = 12-17PC, fit treflowy bez starszej 4ki
    2D = 10+PC, 4+ kara (silne uzgodnienie kar)
    2H = 15+PC, 7(6)+ kierów, ręka jednokolorowa (samouzgodnienie koloru)
@@ -363,7 +363,7 @@
          3C = 5+pikó, 4+ trefle, F1
          3D = 5+pików, 4+ kiara, F1
          3H = 6+pików, inwit do 4!c
-         3N = dokładnie 5 pików, zagrajmy 3!n, albo 4!c   
+         3N = dokładnie 5 pików, zagrajmy 3!n, albo 4!c
    2S = transfer na trefle
       2N = mocne przyjęcie (do 8PC na 6 treflach chcemy grać 3BA)
          3C = do pasa
@@ -378,7 +378,7 @@
          4C = cue-bid treflowy, samouzgodnienie
             4D = "wyczekujące" - czekam na dalsze que-bidy
          4D = samouzgodnienie, wywołanie cue-bidów
-   3D = 6+kar z dwoma figurami, 7-9PC - inwit do 3BA 
+   3D = 6+kar z dwoma figurami, 7-9PC - inwit do 3BA
    3H = 10+PC 5+4+ na młodych, 3(2) piki, 1(0) kierów
       3S = ładne 4 piki bez trzymania kier- "może zagramy 4 piki na 7miu atutach?"
          3N = nie chcę grać w piki, trefle takie same jak kara
@@ -531,7 +531,7 @@ licytujemy tak, jakby otwarcia nie było (x = 1!c)
        2N = 5+/5+ młodsze
        3C = 6+ trefli
        3D = 6+ kar
-       
+
    Po 1NT - Pas - Pas tak samo, (ale można licytować odważniej i ze słabszym układem)
 
 ** Generalne zasady licytacji dwustronnej
@@ -542,7 +542,7 @@ licytujemy tak, jakby otwarcia nie było (x = 1!c)
 - 2BA - po wejściu przeciwnika: inwit do końcówki z fitem
 - rekontra: 10+PC bez fitu
 - jeżeli partner pokazał 4kę (np. 1Trefl-(pas)-1kier-(2karo)-x kontra to kontra fit - dokładnie 3 karty w kolorze
-- 1po 1Trefl i x - pas - negat, 1karo - naturalne, resztę tak, jakby kontry nie było
+- po 1Trefl i x - pas - negat, 1karo - naturalne, resztę tak, jakby kontry nie było
 - po 1Trefl/karo -(1kier) - 1pik: 5 pików; x - 4 piki.
 - po otwarciu 1bez atu i wejściu przeciwnika - każda odzywka jest transferem! transfer na kolor przeciwnika to pytanie o trzymanie.
 
