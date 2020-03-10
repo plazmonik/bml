@@ -162,6 +162,13 @@ var jednostronna =
       "1D": {
         "answers": {
           "3C": {
+            "answers": {
+              "..": {
+                "description": [
+                  "dalsze odzywki: foorsing do końcówki"
+                ]
+              }
+            },
             "description": [
               "6+ trefli - podacol (brakuje jednej figury do końcówki)"
             ]
@@ -175,7 +182,7 @@ var jednostronna =
               },
               "3C": {
                 "description": [
-                  "Wariant 1. 1!d, fit treflowy, brak starszych czwórek? tak"
+                  "Wariant 1. 1!d, fit treflowy, brak starszych czwórek"
                 ]
               },
               "3S": {
@@ -202,7 +209,7 @@ var jednostronna =
               },
               "3D": {
                 "description": [
-                  "Wariant 3. 1!d, 6(5) kar, może zagrajmy coś lepszego niż 3BA"
+                  "Wariant 3. 1!d, 6(5) kar, może zagrajmy coś lepszego niż 3NT"
                 ]
               },
               "2D": {
@@ -224,7 +231,7 @@ var jednostronna =
                   },
                   "4C": {
                     "description": [
-                      "ustalenie koloru, wywołanie cue-bidów"
+                      "wywołanie cue-bidów"
                     ]
                   }
                 },
@@ -249,7 +256,7 @@ var jednostronna =
               },
               "4C": {
                 "description": [
-                  "Wariant 3. 1!d, ustalenie trefli"
+                  "Wariant 2. 1!d, ustalenie trefli, bez singla"
                 ]
               }
             },
@@ -263,6 +270,13 @@ var jednostronna =
             ]
           },
           "3D": {
+            "answers": {
+              "..": {
+                "description": [
+                  "dalsze odzywki: forsing do końcowki"
+                ]
+              }
+            },
             "description": [
               "silny trefl, 6+ kar"
             ]
@@ -321,6 +335,91 @@ var jednostronna =
               "Słaby trefl, kiery nie gorsze od pików"
             ]
           },
+          "2N": {
+            "answers": {
+              "3C": {
+                "answers": {
+                  "3S": {
+                    "description": [
+                      "4 piki, wyklucza 4 kiery"
+                    ]
+                  },
+                  "3D": {
+                    "description": [
+                      "brak starszych 4"
+                    ]
+                  },
+                  "3H": {
+                    "description": [
+                      "4 kiery, nie wyklucze 4 pików"
+                    ]
+                  }
+                },
+                "description": [
+                  "Stayman (pytanie o st. 4ki), z min. jedną starszą 4."
+                ]
+              },
+              "3S": {
+                "description": [
+                  "odzywka nieistniejąca"
+                ]
+              },
+              "4D": {
+                "description": [
+                  "Wariant 2. 1!d - na karach"
+                ]
+              },
+              "3D": {
+                "answers": {
+                  "3H": {
+                    "description": [
+                      "automat"
+                    ]
+                  },
+                  "3N": {
+                    "description": [
+                      "dokładnie 5 kierów, \"partnerze wybierz końcówkę\""
+                    ]
+                  }
+                },
+                "description": [
+                  "transfer na kiery"
+                ]
+              },
+              "3H": {
+                "answers": {
+                  "3S": {
+                    "answers": {
+                      "3N": {
+                        "description": [
+                          "dokładnie 5 pików, \"partnerze wybierz końcówkę\""
+                        ]
+                      }
+                    },
+                    "description": [
+                      "automat"
+                    ]
+                  }
+                },
+                "description": [
+                  "transfer na piki"
+                ]
+              },
+              "3N": {
+                "description": [
+                  "do gry"
+                ]
+              },
+              "4C": {
+                "description": [
+                  "Wariant 2. 1!d - na treflach"
+                ]
+              }
+            },
+            "description": [
+              "21-24PC, skład zrównoważony"
+            ]
+          },
           "1N": {
             "answers": {
               "3C": {
@@ -376,7 +475,7 @@ var jednostronna =
               },
               "3D": {
                 "description": [
-                  "inwit do 3BA z 6(5+) kar z jedną figurą bez bocznego dojścia"
+                  "inwit do 3NT z 6(5+) kar z jedną figurą bez bocznego dojścia"
                 ]
               },
               "2D": {
@@ -405,19 +504,19 @@ var jednostronna =
               },
               "2N": {
                 "description": [
-                  "inwit do 3BA"
+                  "inwit do 3NT"
                 ]
               }
             },
             "description": [
-              "18-20pkt zrównoważony"
+              "18-20pkt skład zrównoważony (dopuszczamy odstępstwa od składu przy braku lepszej odzywki)"
             ]
           }
         },
         "description": [
           "Karo trójznaczne:",
-          "0-6PC",
-          "7-11PC bez starszej 4. na treflach i lub karach",
+          "0-6PC Negat",
+          "7-11PC bez starszej 4. na treflach i/lub karach (karta nienadająca się do zajmowanie bez atu)",
           "13+PC bez starszej 4. i młodszej 5."
         ]
       },
@@ -481,9 +580,24 @@ var jednostronna =
             "answers": {
               "2C": {
                 "answers": {
+                  "3C": {
+                    "description": [
+                      "silny trefl, 4+ trefle, 5 pików"
+                    ]
+                  },
+                  "3S": {
+                    "description": [
+                      "silny trefl bez młodszej 4ki"
+                    ]
+                  },
                   "2S": {
                     "description": [
                       "silny (13-14PC) z 3 kierami"
+                    ]
+                  },
+                  "3D": {
+                    "description": [
+                      "silny trefl, 4+ kara, 5 pików"
                     ]
                   },
                   "2D": {
@@ -518,17 +632,39 @@ var jednostronna =
               },
               "2N": {
                 "description": [
-                  "12+PC"
+                  "12+PC (GF), 4 kiery (z 5. licytujemy Magistra)"
                 ]
               },
               "1N": {
+                "answers": {
+                  "P ": {
+                    "description": [
+                      "dowolny) słaby trefl"
+                    ]
+                  },
+                  "2C": {
+                    "description": [
+                      "silny trefl, 4+trefle, 5 pików"
+                    ]
+                  },
+                  "2S": {
+                    "description": [
+                      "silny trefl, 5 pików bez młodszej czwórki"
+                    ]
+                  },
+                  "2D": {
+                    "description": [
+                      "silny trefl, 4+kara, 5 pików"
+                    ]
+                  }
+                },
                 "description": [
                   "do gry"
                 ]
               }
             },
             "description": [
-              "4+ pik, F1 (forsing na jedno okrążenie), ciągle dopuszczamy silnego trefla"
+              "4+ pik, F1 (forsing na jedno okrążenie), może być silny trefl, jeżeli 5 pików bez 3 kierów (z innymi silnymi treflami odpowiadamy 2!d, 2!s albo 2!n)"
             ]
           },
           "2D": {
@@ -614,7 +750,7 @@ var jednostronna =
       },
       "2N": {
         "description": [
-          "10-12PC, bez starszych 4. - inwit do 3BA"
+          "10-12PC, bez starszych 4. - inwit do 3NT"
         ]
       },
       "1N": {
@@ -638,6 +774,33 @@ var jednostronna =
         ]
       },
       "2C": {
+        "answers": {
+          "3C": {
+            "description": [
+              "12-17PC, fit treflowy bez starszej 4ki"
+            ]
+          },
+          "2S": {
+            "description": [
+              "4 piki, 12-17PC"
+            ]
+          },
+          "2D": {
+            "description": [
+              "6+kar, 12-17PC"
+            ]
+          },
+          "2H": {
+            "description": [
+              "4 kiery, 12-17PC"
+            ]
+          },
+          "2N": {
+            "description": [
+              "12-17, bez 4. starszej, 5ciu kar, i fitu trefl"
+            ]
+          }
+        },
         "description": [
           "12+PC, 5+ trefli"
         ]
@@ -653,6 +816,64 @@ var jednostronna =
         ]
       },
       "1S": {
+        "answers": {
+          "2C": {
+            "answers": {
+              "2S": {
+                "description": [
+                  "7-9PC 5+ pików"
+                ]
+              },
+              "2H": {
+                "description": [
+                  "12+PC, 4ty kolor"
+                ]
+              },
+              "2N": {
+                "description": [
+                  "10-11PC, trzymania w kierach i pikach, inwit do 3!n"
+                ]
+              }
+            },
+            "description": [
+              "12-14PC min 5+ 4+ w treflach i karach (4ka może być za równo treflowa, jak i karowa)"
+            ]
+          },
+          "1N": {
+            "answers": {
+              "2C": {
+                "answers": {
+                  "2S": {
+                    "description": [
+                      "silny (13-14PC) z 3 pikami"
+                    ]
+                  },
+                  "2D": {
+                    "description": [
+                      "słaby (12-13PC) bez 3 pików"
+                    ]
+                  },
+                  "2H": {
+                    "description": [
+                      "słaby (12-13PC) z 3 pikami"
+                    ]
+                  },
+                  "2N": {
+                    "description": [
+                      "silny (13-14PC) bez 3 pików"
+                    ]
+                  }
+                },
+                "description": [
+                  "Magister (5+ pików 10+PC)"
+                ]
+              }
+            },
+            "description": [
+              "12-14PC, skład zrównoważony (być może z singlem pik)"
+            ]
+          }
+        },
         "description": [
           "7+PC, 4+ piki"
         ]
@@ -668,16 +889,169 @@ var jednostronna =
         ]
       },
       "1H": {
+        "answers": {
+          "2C": {
+            "answers": {
+              "2S": {
+                "description": [
+                  "12+PC 4ty kolor"
+                ]
+              },
+              "2H": {
+                "description": [
+                  "5+kierów, 7+9PC"
+                ]
+              },
+              "2N": {
+                "description": [
+                  "10-11PC, trzymania w kierach i pikach, inwit do 3!n"
+                ]
+              }
+            },
+            "description": [
+              "12-14PC min 5+ 4+ w treflach i karach (4ka może być za równo treflowa, jak i karowa)"
+            ]
+          },
+          "1S": {
+            "answers": {
+              "2C": {
+                "answers": {
+                  "3C": {
+                    "description": [
+                      "15+, 4ty kolor"
+                    ]
+                  },
+                  "..": {
+                    "description": [
+                      "(pozostałe odzywki, 15+, GF, naturalne)"
+                    ]
+                  },
+                  "2S": {
+                    "description": [
+                      "silny (13-14PC) z 3 kierami"
+                    ]
+                  },
+                  "2D": {
+                    "description": [
+                      "słaby (12-13PC) bez 3 kierów"
+                    ]
+                  },
+                  "2H": {
+                    "description": [
+                      "słaby (12-13PC) z 3 kierami"
+                    ]
+                  },
+                  "2N": {
+                    "description": [
+                      "silny (13-14PC) bez 3 kierów"
+                    ]
+                  }
+                },
+                "description": [
+                  "Magister (5+kierów, 10+PC)"
+                ]
+              }
+            },
+            "description": [
+              "12+PC, 4 piki"
+            ]
+          },
+          "2D": {
+            "answers": {
+              "2H": {
+                "description": [
+                  "5+kierów, 7-9PC"
+                ]
+              }
+            },
+            "description": [
+              "6+kar; 12-14PC"
+            ]
+          },
+          "2H": {
+            "answers": {
+              "3H": {
+                "description": [
+                  "inwit do 4kier, 10-11PC"
+                ]
+              }
+            },
+            "description": [
+              "4 kiery; 12-14PC"
+            ]
+          },
+          "1N": {
+            "answers": {
+              "2C": {
+                "answers": {
+                  "2S": {
+                    "description": [
+                      "silny (13-14PC) z 3 kierami"
+                    ]
+                  },
+                  "2D": {
+                    "description": [
+                      "słaby (12-13PC) bez 3 kierów"
+                    ]
+                  },
+                  "2H": {
+                    "description": [
+                      "słaby (12-13PC) z 3 kierami"
+                    ]
+                  },
+                  "2N": {
+                    "description": [
+                      "silny (13-14PC) bez 3 kierów"
+                    ]
+                  }
+                },
+                "description": [
+                  "Magister (5+kierów 10+PC)"
+                ]
+              }
+            },
+            "description": [
+              "12-14PC, skład zrównoważony (być może z singlem kier)"
+            ]
+          }
+        },
         "description": [
           "7+PC, 4+ kiery"
         ]
       },
       "2N": {
         "description": [
-          "10-12PC inwit do 3BA, bez starszych 4 i bez 4 kar"
+          "10-12PC inwit do 3NT, bez starszych 4 i bez 4 kar"
         ]
       },
       "1N": {
+        "answers": {
+          "2C": {
+            "description": [
+              "12-14PC min 5+ 4+ w treflach i karach (4ka może być za równo treflowa, jak i karowa)"
+            ]
+          },
+          "2S": {
+            "description": [
+              "15-17PC, trzeci kolor, rewers"
+            ]
+          },
+          "2D": {
+            "description": [
+              "12-14PC 6+ kar"
+            ]
+          },
+          "2H": {
+            "description": [
+              "15-17PC, trzeci kolor, rewers"
+            ]
+          },
+          "2N": {
+            "description": [
+              "15-17PC, trzymanie w obu starszych, inwit do 3!n"
+            ]
+          }
+        },
         "description": [
           "7-9PC bez starszej 4."
         ]
@@ -691,7 +1065,7 @@ var jednostronna =
     "answers": {
       "2S": {
         "description": [
-          "15+PC, (7)6+pików, ręka jednokolorowa (samouzgodnienie koloru)"
+          "15+PC, (7)6+ pików, ręka jednokolorowa (samouzgodnienie koloru)"
         ]
       },
       "1S": {
@@ -889,7 +1263,7 @@ var jednostronna =
                   }
                 },
                 "description": [
-                  "10+PC, 5+pików (Magister) - pytanie o siłę i skład"
+                  "10+PC, 5+ pików (Magister) - pytanie o siłę i skład"
                 ]
               }
             },
@@ -1082,6 +1456,13 @@ var jednostronna =
                 ]
               },
               "4C": {
+                "answers": {
+                  "4D": {
+                    "description": [
+                      "\"wyczekujące\" - czekam na dalsze que-bidy"
+                    ]
+                  }
+                },
                 "description": [
                   "cue-bid treflowy, samouzgodnienie"
                 ]
@@ -1093,7 +1474,7 @@ var jednostronna =
           }
         },
         "description": [
-          "transfer na kara - słaby (6+kar) lub silny (GF)"
+          "transfer na kara - słaby (6+kar) lub silny (GF, z ambicjami szlemikowymi)"
         ]
       },
       "3S": {
@@ -1112,7 +1493,7 @@ var jednostronna =
               },
               "4S": {
                 "description": [
-                  "ackwood wyłączeniowy (pytanie 0 3 asy - poza pikowym) - renons pik"
+                  "Blackwood wyłączeniowy (pytanie o 3 asy - poza pikowym) - renons pik"
                 ]
               }
             },
@@ -1154,7 +1535,7 @@ var jednostronna =
           }
         },
         "description": [
-          "10+PC 5+4+ na młodych 3(2) kiery 1(0) pików"
+          "10+PC 5+4+ na młodych, 3(2) kiery, 1(0) pików"
         ]
       },
       "2C": {
@@ -1163,7 +1544,7 @@ var jednostronna =
             "answers": {
               "3C": {
                 "description": [
-                  "4 piki i 4+ trefle"
+                  "4 piki i 4+ trefle (F1)"
                 ]
               },
               "3S": {
@@ -1173,7 +1554,7 @@ var jednostronna =
               },
               "3D": {
                 "description": [
-                  "4 piki i 4+ trefle"
+                  "4 piki i 4+ trefle (F1)"
                 ]
               },
               "3N": {
@@ -1200,7 +1581,7 @@ var jednostronna =
             "answers": {
               "3C": {
                 "description": [
-                  "4 kiery i 4+ trefle"
+                  "4 kiery i 4+ trefle (F1)"
                 ]
               },
               "2S": {
@@ -1210,7 +1591,7 @@ var jednostronna =
               },
               "3D": {
                 "description": [
-                  "4 kiery i 4+ kara"
+                  "4 kiery i 4+ kara (F1)"
                 ]
               },
               "3H": {
@@ -1230,7 +1611,7 @@ var jednostronna =
           }
         },
         "description": [
-          "(Stayman) pytanie o starsze 4, co najmniej jedna starsza czwórka, 8+ pkt"
+          "(Stayman) pytanie o starsze 4, co najmniej jedna starsza czwórka, 8+PC"
         ]
       },
       "2S": {
@@ -1249,7 +1630,7 @@ var jednostronna =
               }
             },
             "description": [
-              "mocne przyjęcie (do 8PC na 6treflach chcemy grać 3BA)"
+              "mocne przyjęcie (do 8PC na 6 treflach chcemy grać 3NT)"
             ]
           }
         },
@@ -1259,12 +1640,49 @@ var jednostronna =
       },
       "3D": {
         "description": [
-          "6+kar, 7-9PC - inwit do 3BA"
+          "6+kar z dwoma figurami, 7-9PC - inwit do 3NT"
         ]
       },
       "2D": {
         "answers": {
           "2H": {
+            "answers": {
+              "P ": {
+                "description": [
+                  "słaba karta, wolę grać 2!h niż 1!n"
+                ]
+              },
+              "3C": {
+                "description": [
+                  "5+kierów, 4+ trefle, F1"
+                ]
+              },
+              "2S": {
+                "description": [
+                  "5+kierów, 4 piki (F1), \"szukamy najlepszej końcówki\""
+                ]
+              },
+              "3D": {
+                "description": [
+                  "5+kierów, 4+ kiara, F1"
+                ]
+              },
+              "3H": {
+                "description": [
+                  "6+kierów, inwit do 4!c"
+                ]
+              },
+              "3N": {
+                "description": [
+                  "dokładnie 5 kierów, zagrajmy 3!n, albo 4!c"
+                ]
+              },
+              "2N": {
+                "description": [
+                  "dokładnie 5 kierów, inwit do którejś końcówki"
+                ]
+              }
+            },
             "description": [
               "automatyczne"
             ]
@@ -1369,12 +1787,44 @@ var jednostronna =
           }
         },
         "description": [
-          "10+PC 5+4+ na młodych 3(2) piki 1(0) kierów"
+          "10+PC 5+4+ na młodych, 3(2) piki, 1(0) kierów"
         ]
       },
       "2H": {
         "answers": {
           "2S": {
+            "answers": {
+              "P ": {
+                "description": [
+                  "słaba karta, wolę grać 2!h niż 1!n"
+                ]
+              },
+              "3C": {
+                "description": [
+                  "5+pikó, 4+ trefle, F1"
+                ]
+              },
+              "3D": {
+                "description": [
+                  "5+pików, 4+ kiara, F1"
+                ]
+              },
+              "3H": {
+                "description": [
+                  "6+pików, inwit do 4!c"
+                ]
+              },
+              "3N": {
+                "description": [
+                  "dokładnie 5 pików, zagrajmy 3!n, albo 4!c"
+                ]
+              },
+              "2N": {
+                "description": [
+                  "dokładnie 5 pików, inwit do którejś końcówki"
+                ]
+              }
+            },
             "description": [
               "automatyczne"
             ]
@@ -1408,7 +1858,7 @@ var jednostronna =
           }
         },
         "description": [
-          "inwit do 6BA (15-17PC)"
+          "inwit do 6NT (15-17PC)"
         ]
       },
       "2N": {
@@ -1740,7 +2190,7 @@ var jednostronna =
       },
       "2N": {
         "description": [
-          "10-12PC - inwit do 3BA bez starszej 4"
+          "10-12PC - inwit do 3NT bez starszej 4"
         ]
       },
       "4C": {
@@ -1765,19 +2215,9 @@ var jednostronna =
           "5+pik; forsing"
         ]
       },
-      "2S": {
-        "description": [
-          "pasuj, jeśli masz piki; licytuj 3!h jeśli masz kiery - karta z ładnym fitem pik i kiepskim - kier"
-        ]
-      },
-      "3D": {
-        "description": [
-          "5+kar; forsing"
-        ]
-      },
-      "4H": {
+      "4D": {
         "answers": {
-          "P ": {
+          "4H": {
             "description": [
               "mam kiery"
             ]
@@ -1790,6 +2230,16 @@ var jednostronna =
         },
         "description": [
           "do koloru - blokujące z fitami w starszych"
+        ]
+      },
+      "2S": {
+        "description": [
+          "pasuj, jeśli masz piki; licytuj 3!h jeśli masz kiery - karta z ładnym fitem pik i kiepskim - kier"
+        ]
+      },
+      "3D": {
+        "description": [
+          "5+kar; forsing"
         ]
       },
       "3H": {
@@ -1810,12 +2260,12 @@ var jednostronna =
                 "answers": {
                   "3S": {
                     "description": [
-                      "piki"
+                      "kiery"
                     ]
                   },
                   "3H": {
                     "description": [
-                      "kiery"
+                      "piki"
                     ]
                   }
                 },
@@ -1828,14 +2278,14 @@ var jednostronna =
               "maksimum"
             ]
           },
-          "3S": {
+          "3D": {
             "description": [
-              "minimum na pikach"
+              "minimum na kierach"
             ]
           },
           "3H": {
             "description": [
-              "minimum na kierach"
+              "minimum na pikach"
             ]
           }
         },

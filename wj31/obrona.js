@@ -1,75 +1,142 @@
 var obrona =
 {
-    "X ": {
-        "description": ["5 młodsza i 4 starsza"]
-    },
-    "2C": {
-        "description": ["min. 44 na starszych"],
+  "X ": {
+    "description": [
+      "5 młodsza i 4 starsza"
+    ]
+  },
+  "2C": {
+    "answers": {
+      "2S": {
+        "description": [
+          "chcę grać 2!s"
+        ]
+      },
+      "2D": {
         "answers": {
-            "2D": {
-                "description": ["pytanie o skład"],
-                "answers": {
-                    "2H": {
-                        "description": ["kiery nie gorsze od pików"],
-                    },
-                    "2S": {
-                        "description": ["piki lepsze od kierów"],
-                    }
-                }
-            },
-            "2H": {
-                "description": ["chcę grać 2!h"],
-            },
-            "2H": {
-                "description": ["chcę grać 2!s"],
-            }
-        }
+          "2S": {
+            "description": [
+              "piki lepsze od kierów"
+            ]
+          },
+          "2H": {
+            "description": [
+              "kiery nie gorsze od pików"
+            ]
+          }
+        },
+        "description": [
+          "pytanie o skład"
+        ]
+      },
+      "2H": {
+        "description": [
+          "chcę grać 2!h"
+        ]
+      }
     },
-    "2D": {
-        "description": ["mutli (może być czasami z 5. i w dowolnej sile)"],
+    "description": [
+      "min. 44 na starszych"
+    ]
+  },
+  "2D": {
+    "answers": {
+      "4D": {
         "answers": {
-            "2H": {
-                "description": ["pasuj, jeśli masz kiery"]
-            },
-            "2S": {
-                "description": ["pasuje, jeśli masz piki; licytuj 3!h jeśli masz kiery"]
-            },
-            "2N": {
-                "description": ["pytanie o siłę i skład"],
+          "4H": {
+            "description": [
+              "mam kiery"
+            ]
+          },
+          "4S": {
+            "description": [
+              "mam piki"
+            ]
+          }
+        },
+        "description": [
+          "do koloru - blokujące z fitami w starszych"
+        ]
+      },
+      "2S": {
+        "description": [
+          "pasuj, jeśli masz piki; licytuj 3!h jeśli masz kiery - karta z ładnym fitem pik i kiepskim - kier"
+        ]
+      },
+      "2H": {
+        "description": [
+          "pasuj, jeśli masz kiery"
+        ]
+      },
+      "2N": {
+        "answers": {
+          "3C": {
+            "answers": {
+              "3D": {
                 "answers": {
-                    "3C": {
-                        "description": ["maksimum"],
-                        "answers": {
-                            "3D": {
-                                "description": ["automat; kiery, czy piki?"],
-                                "answers": {
-                                    "3H": {
-                                        "description": ["kiery"],
-                                    },
-                                    "3S": {
-                                        "description": ["piki"],
-                                    }
-                                }
-                            }
-                        }
-                    },
-                    "3H": {
-                        "description": ["słabe na kierach"],
-                    },
-                    "3S": {
-                        "description": ["słabe na pikach"],
-                    }
-                }
-            }
-        }
+                  "3S": {
+                    "description": [
+                      "kiery"
+                    ]
+                  },
+                  "3H": {
+                    "description": [
+                      "piki"
+                    ]
+                  }
+                },
+                "description": [
+                  "automat; kiery, czy piki?"
+                ]
+              }
+            },
+            "description": [
+              "maksimum"
+            ]
+          },
+          "3D": {
+            "description": [
+              "minimum na kierach"
+            ]
+          },
+          "3H": {
+            "description": [
+              "minimum na pikach"
+            ]
+          }
+        },
+        "description": [
+          "pytanie o siłę i skład"
+        ]
+      }
     },
-    "2H": {
-        "description": ["5+kierów 4+młodsze"],
-    },
-    "2S": {
-        "description": ["5+pików 4+młodsze"],
-    },
-    "2N": {
-        "description": ["5+/5+ młodsze"],
-    }
+    "description": [
+      "mutli (może być czasami z 5. i w dowolnej sile)"
+    ]
+  },
+  "2H": {
+    "description": [
+      "5+ kierów 4+ młodsze"
+    ]
+  },
+  "2N": {
+    "description": [
+      "5+/5+ młodsze"
+    ]
+  },
+  "2S": {
+    "description": [
+      "5+ pików 4+ młodsze"
+    ]
+  },
+  "3C": {
+    "description": [
+      "6+ trefli"
+    ]
+  },
+  "3D": {
+    "description": [
+      "6+ kar"
+    ]
+  }
 }
