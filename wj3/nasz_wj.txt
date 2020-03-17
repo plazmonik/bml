@@ -424,6 +424,7 @@
    2S = 7-10PC 5+pików; nie forsuje
    2N = 10-12PC - inwit do 3NT bez starszej 4
    3C = blok
+   3D = 5+ kar, forcing do końcówki
    4C = blok
 2D = (Multi)6-10PC, 6+kierów lub pików bez drugiej starszej czwórki
    2H = pasuj, jeśli masz kiery

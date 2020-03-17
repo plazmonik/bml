@@ -2193,6 +2193,11 @@ var jednostronna =
           "10-12PC - inwit do 3NT bez starszej 4"
         ]
       },
+      "3D": {
+        "description": [
+          "5+ kar, forcing do końcówki"
+        ]
+      },
       "4C": {
         "description": [
           "blok"
