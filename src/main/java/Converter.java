@@ -1,5 +1,3 @@
-package com.company;
-
 import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.ObjectMapper;
 import org.json.JSONArray;
@@ -8,25 +6,10 @@ import org.json.JSONObject;
 import java.io.*;
 import java.util.TreeMap;
 
-/*
-        <!-- https://mvnrepository.com/artifact/org.json/json -->
-        <dependency>
-            <groupId>org.json</groupId>
-            <artifactId>json</artifactId>
-            <version>20190722</version>
-        </dependency>
-        <!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
-        <dependency>
-            <groupId>com.fasterxml.jackson.core</groupId>
-            <artifactId>jackson-databind</artifactId>
-            <version>2.10.1</version>
-        </dependency>
- */
-
 public class Converter {
     public static void main(String[] args) {
         try {
-            File file = new File(Start.class.getClassLoader().getResource("lic.txt").getFile());
+            File file = new File(Converter.class.getClassLoader().getResource("lic.txt").getFile());
             BufferedReader b = new BufferedReader(new FileReader(file));
 
             String[] lines = new String[1000];
@@ -110,6 +93,6 @@ public class Converter {
     }
 
     static class LineWrapper {
-        public int line;
+        private int line;
     }
 }

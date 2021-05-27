@@ -141,7 +141,7 @@ var jednostronna =
                   }
                 },
                 "description": [
-                  "10+PC, 5+pików (Magister) - pytanie o siłę i skład"
+                  "10+PC, 5+ pików (Magister) - pytanie o siłę i skład"
                 ]
               }
             },
@@ -639,7 +639,7 @@ var jednostronna =
                 "answers": {
                   "P ": {
                     "description": [
-                      "dowolny) słaby trefl"
+                      "(dowolny) słaby trefl"
                     ]
                   },
                   "2C": {
@@ -1065,7 +1065,7 @@ var jednostronna =
     "answers": {
       "2S": {
         "description": [
-          "15+PC, (7)6+ pików, ręka jednokolorowa (samouzgodnienie koloru)"
+          "15+PC, (7)6+pików, ręka jednokolorowa (samouzgodnienie koloru)"
         ]
       },
       "1S": {
@@ -1801,17 +1801,17 @@ var jednostronna =
               },
               "3C": {
                 "description": [
-                  "5+pikó, 4+ trefle, F1"
+                  "5+ pikó, 4+ trefle, F1"
                 ]
               },
               "3D": {
                 "description": [
-                  "5+pików, 4+ kiara, F1"
+                  "5+ pików, 4+ kiara, F1"
                 ]
               },
               "3H": {
                 "description": [
-                  "6+pików, inwit do 4!c"
+                  "6+ pików, inwit do 4!c"
                 ]
               },
               "3N": {
@@ -2146,7 +2146,7 @@ var jednostronna =
       },
       "2S": {
         "description": [
-          "7-10PC 5+pików; nie forsuje"
+          "7-10PC 5+ pików; nie forsuje"
         ]
       },
       "2D": {
@@ -2212,12 +2212,12 @@ var jednostronna =
     "answers": {
       "3C": {
         "description": [
-          "5+trefli; forsing"
+          "5+ trefli; forsing"
         ]
       },
       "3S": {
         "description": [
-          "5+pik; forsing"
+          "5+ pików; forsing"
         ]
       },
       "4D": {
@@ -2244,12 +2244,12 @@ var jednostronna =
       },
       "3D": {
         "description": [
-          "5+kar; forsing"
+          "5+ kar; forsing"
         ]
       },
       "3H": {
         "description": [
-          "5+kier; forsing"
+          "5+ kierów; forsing"
         ]
       },
       "2H": {
@@ -2312,7 +2312,7 @@ var jednostronna =
       },
       "3S": {
         "description": [
-          "5+pik; forsing"
+          "5+ pików; forsing"
         ]
       },
       "2S": {
@@ -2496,7 +2496,7 @@ var jednostronna =
       }
     },
     "description": [
-      "6-10PC 5+pików, 5+trefli lub kar, bez 3 kierów!"
+      "6-10PC 5+ pików, 5+ trefli lub kar, bez 3 kierów!"
     ]
   },
   "3C": {
